@@ -1,0 +1,34 @@
+pwd(print working dirctory)
+
+cd(this command is used to chnage the directory)
+
+ls(list all the directories and files in the current folder)
+
+mkdir(used to create new directory)
+
+touch(used to create any file )
+
+cat(used to print the content inside the file)
+
+vi(lets u edit files i.e it opens the file in terminal itself)
+//to enable typing we have to press 'i' i.e insert mode
+//':wq!' will save the file
+//press the 'esc' to come out of the insert mode
+//then type ':' and then q to exit the vi mode
+
+mv(lets u move file from one folder to other)
+//mv file_name folder_name (or we can add path to folder)
+
+cp(used to copy files and folders)
+//to copy file --> cp file_name folder_name
+//to copy folder in folder --> cp -r folder_name folder_name
+
+nvm(node version manager)
+//by using nvm we can install node on our machine
+
+npm(node package manager) 
+//by running this command with package names we can install packages 
+
+node
+//node lets us run javascript locally on our pcs
+//we can run the javascript the file --> node file_name
