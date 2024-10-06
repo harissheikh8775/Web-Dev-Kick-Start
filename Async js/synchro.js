@@ -8,3 +8,5 @@ console.log(content1);
 
 const content3 = fs.readFileSync("c.txt", "utf-8");
 console.log(content1);
+
+//in synchronous we do one by one task i.e we complete one then start the other
