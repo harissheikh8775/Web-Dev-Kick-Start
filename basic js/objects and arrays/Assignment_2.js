@@ -9,7 +9,14 @@ function greet(user) {
     } else {
         salutation = "Others";
     }
-    console.log(`Hi ${salutation} ${user.name}, your age is ${user.age}.`);
+     console.log(`Hi ${salutation} ${user.name}, your age is ${user.age}.`);
+    if (user.age >= 18) {
+        console.log("Congrats you can vote.");
+    }
+    else {
+        console.log("Alas you can't vote.");
+    }
+   
 
 }
 
