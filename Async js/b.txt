@@ -1,0 +1,3 @@
+hi this is file b.txt 
+and i am reading this file synchronously 
+by using the fs module and fileReadSync function
