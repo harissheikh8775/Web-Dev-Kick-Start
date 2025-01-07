@@ -1,5 +1,9 @@
-function random() {
-    
+function random(resolve) {
+    resolve();
 }
 let prom = new Promise(random);
-console.log(prom);
+
+function callback() {
+    console.log("callback succeeded");
+}
+prom.then(callback);
